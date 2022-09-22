@@ -1,19 +1,90 @@
 h1 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008000;
 }
 
 body {
-    text-align: center;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: rgb(248, 246, 246);
+}
+
+button {
+border-radius: 50%;
+background-color: #C2FBD7;
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+color: #008000;
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
 
 }
 
-table {
-    border-spacing: 10px;
+button:hover { 
+    background-color: #AFE6C3;
+transform: scale(1.05);
+
 }
 
-.cell {
-    width: 35px;
+.timer {
+    height: 100px;
+    width: 150px;
+    background-color: #AFE6C3;
+    /* margin-left: 45%;
+    margin-right: 45%; */
+    padding-top: 10px;
+    border-radius: 50px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008000;
+  
+ 
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+color: #008000;
+}
+.picture {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+tbody {
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px; 
+    border-color: black 
+}
+
+td .isShown{
+    
+    color: gray;
+
+}
+ img {
     height: 50px;
+    width: 50px;
    
+ }
+td.cell {
+    width: 50px;
+    height: 50px;
+   background-color: gray;
     border: 1px solid gray;
+    text-align: center;
 }
